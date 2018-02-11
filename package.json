@@ -21,7 +21,8 @@
   "homepage": "https://github.com/tkriik/puhelinluettelo_backend#readme",
   "dependencies": {
     "body-parser": "^1.18.2",
-    "express": "^4.16.2"
+    "express": "^4.16.2",
+    "morgan": "^1.9.0"
   },
   "devDependencies": {
     "nodemon": "^1.14.12"
