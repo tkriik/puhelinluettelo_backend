@@ -1,0 +1,29 @@
+{
+  "name": "puhelinluettelo_backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "nodemon index.js",
+    "start": "node index.js",
+    "start-debug": "DEBUG=express:* node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tkriik/puhelinluettelo_backend.git"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/tkriik/puhelinluettelo_backend/issues"
+  },
+  "homepage": "https://github.com/tkriik/puhelinluettelo_backend#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.14.12"
+  }
+}
